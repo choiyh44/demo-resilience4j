@@ -1,8 +1,8 @@
 package kr.ensmart.demo.resiliece4j.app.service;
 
-import org.springframework.stereotype.Service;
-
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+import kr.ensmart.demo.resiliece4j.app.dto.SampleDto;
 
 @Service
 @Slf4j

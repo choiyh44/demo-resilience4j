@@ -1,4 +1,4 @@
-package kr.ensmart.demo.resiliece4j.app.service;
+package kr.ensmart.demo.resiliece4j.app.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,7 +14,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SampleDto {
-	private Long id;
-	private String name;
-	private String description;
+    private Long id;
+    private String name;
+    private String description;
 }
